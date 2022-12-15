@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Que Hacer</string>
+    <string name="group_title_label">Título</string>
+    <string name="group_new_label">Crear nota</string>
+    <string name="group_details_label">Detalles</string>
+    <string name="group_solved_label">Acabado</string>
+</resources>

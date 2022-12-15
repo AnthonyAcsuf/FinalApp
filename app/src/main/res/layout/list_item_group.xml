@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/group_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/group_title_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_conversion_absoluteHeight="19dp"
+            tools:layout_conversion_absoluteWidth="27dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp" />
+
+        <TextView
+            android:id="@+id/group_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Note Date"
+            tools:ignore="MissingConstraints"
+            tools:layout_conversion_absoluteHeight="19dp"
+            tools:layout_conversion_absoluteWidth="62dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="27dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/group_finished"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_baseline_check_24" />
+
+
+</LinearLayout>

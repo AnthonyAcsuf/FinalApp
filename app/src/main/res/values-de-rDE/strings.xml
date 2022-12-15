@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Machen</string>
+    <string name="group_title_label">Titel</string>
+    <string name="group_new_label">Notiz erstellen</string>
+    <string name="group_details_label">Einzelheiten</string>
+    <string name="group_solved_label">Fertig</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">To Do</string>
+    <string name="group_title_label">Title</string>
+    <string name="group_new_label">Create Note</string>
+    <string name="group_details_label">Details</string>
+    <string name="group_solved_label">Finished</string>
+</resources>
